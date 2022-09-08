@@ -1,0 +1,1 @@
+type WebLanguage = 'en' | 'zh'
