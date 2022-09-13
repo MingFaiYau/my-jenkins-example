@@ -1,9 +1,10 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('build') {
       steps {
         echo 'Hi'
+        sh 'df -h'
       }
     }
 
