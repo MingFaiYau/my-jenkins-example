@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Global>
-      <Container onClick={onTitleClick}>{l('title')}</Container>
+      <Container onClick={onTitleClick}>Hello World</Container>
     </Global>
   )
 }
