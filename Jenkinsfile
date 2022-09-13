@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('start') {
+      steps {
+        echo 'start'
+      }
+    }
+
   }
 }
